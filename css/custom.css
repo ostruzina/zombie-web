@@ -1,0 +1,186 @@
+body {
+    background: #57544D;
+    width: 100%;
+    height: auto;
+    font-size: 1.5em; /* 16 pixelu, predefinovana velikost pro pismo na webu */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    color: #EAE6DA;
+    line-height: 2.3rem;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6  {
+    color: #FFF4DD;
+    margin-top: 6rem;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h2 {
+  margin-bottom: 6rem;
+  font-weight: 700;
+}
+
+h2::before {
+  content: '❀ ';
+}
+
+h2::after {
+  content: ' ❀';
+}
+
+h3 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+p {
+  font-size: inherit;
+  display: block;
+}
+
+a {
+  color: #ECC980 !important;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+a:hover, a:focus, a:active {
+  color: #FF1919;
+  text-decoration: none;
+}
+
+section {
+  height: auto;
+}
+
+.navbar {
+    border-bottom: 0px
+}
+
+.navbar-inverse {
+  background: #3E3A2E;
+  border: none;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav>li>a {
+  color: #EAE6DA;
+}
+
+a:hover,
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+  color: #FF1919 !important;
+  text-decoration: none;
+}
+
+li a img.img-circle {
+  border: 2px solid #EAE6DA;
+  margin-right: 5px;
+  margin-left: auto;
+  margin-top: -3px;
+}
+
+.carousel {
+    height: auto;
+}
+
+.carousel-caption {
+    bottom: 90px;
+  }
+
+.carousel-caption > h1 {
+    color: #EAE6DA;
+    text-shadow: none;
+    font-weight: bolder;
+}
+
+.interest-wrapper {
+  border: 1px solid #FFF4DD;
+  padding: 40px 30px;
+  box-shadow: 1px 6px 10px #3E3A2E;
+  border-radius: .2em;
+  height: auto;
+  overflow: hidden;
+}
+
+.fa-i {
+  font-size: 5em !important;
+  color: #EAE6DA;
+}
+
+.join1, .join2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250;
+}
+
+#news {
+    padding-bottom: 40px;
+}
+
+#contact {
+  background: url('../img/graves-1441560-1600x400.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-bottom: 6rem;
+}
+
+.form-wrapper {
+  background:rgba(51, 51, 51, 0.5);
+  padding: 40px;
+  border-radius: .2em;
+}
+
+.form-control:focus {
+    border-color: #CCC888;
+    outline: none;
+    -webkit-box-shadow:  transparent;
+    box-shadow: transparent;
+}
+
+form div div:nth-child(4) {
+  color: #EAE6DA;
+  font-style:italic;
+  font-size: 0.75em;
+  line-height: 40px;
+}
+
+.btn-primary {
+    color: #EAE6DA;
+    background-color: #3E3A2E;
+    border-color: transparent;
+    border-radius: 0.2em;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover,
+.btn-primary:hover {
+  background-color: #FF1919 !important;
+  border-color: transparent !important;
+}
+
+footer {
+  height: 60px;
+  padding: 1.50rem;
+  background: #3E3A2E;
+  color: #EAE6DA;
+}
+
+a {
+  color: #EAE6DA;
+}
+
+.fa {
+  font-size: 1.25em;
+}
